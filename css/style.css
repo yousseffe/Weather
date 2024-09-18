@@ -1,0 +1,76 @@
+:root{
+  --main-bg-clr : #1e202b ;
+  --second-bg-clr : #323544 ;
+  --tri-bg-clr : #262936 ;
+  --main-clr : #009AD8;
+  --main-font-family : font-family: 'Roboto', sans-serif ;
+  --main-fs: 600% ;
+}
+
+.main-bg-clr{
+  background-color: var(--main-bg-clr) !important;
+}
+.second-bg-clr{
+  background-color: var(--second-bg-clr) !important;
+}
+.tri-bg-clr{
+  background-color: var(--tri-bg-clr) !important;
+}
+.main-fs{
+  font-size: var(--main-fs) !important;
+}
+.btn-clr{
+  background-color: var(--main-clr) !important;
+}
+.logo-text{
+  font-size: 10px !important;
+}
+.main-clr{
+  color: var(--main-clr);
+}
+.nav-item a{
+  padding: 3px 30px !important;
+  border: 2px solid transparent !important;
+  margin: 0px 4px;
+  border-radius: 30px;
+  color: white;
+  transition: all 0.3s ;
+}
+.nav-item .active{
+  color: var(--main-clr) !important;
+  border-color: var(--main-clr) !important;
+}
+.nav-item:hover a{
+  color: var(--main-clr) !important;
+  border-color: var(--main-clr) !important;
+}
+section{
+  background-image: url(../banner.png);
+  background-repeat: no-repeat;
+  background-color: var(--main-bg-clr);
+}
+input:focus {
+  color: white;
+  outline: none !important;
+}
+.icon{
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  transition: all 0.5s;
+}
+.icon:hover  {
+  background-color: var(--main-clr) !important;
+  color: white !important;
+}
+.img-icon{
+  height: 40%;
+  width: 40%;
+}
+.img-icon-2{
+  height: 30%;
+  width: 30%;
+}
+.header{
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
